@@ -186,7 +186,7 @@ img.smallResize {
   transition: 0.5s;
   font-family: "Zilla Slab", serif;
 }
-/*Highlights on hover*/
+/*Highlights drop down menus on hover*/
 .active,
 .folding:hover {
   background-color: #ccc;
@@ -225,6 +225,10 @@ img.smallResize {
   display: table;
   clear: both;
 }
+.column {
+  padding-top: 5%;
+}
+/* End CSS for Testing.html page */
 
 /* link cards */
 
