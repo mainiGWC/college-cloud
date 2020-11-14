@@ -12,6 +12,7 @@ h1 {
   float:left;
 }
 
+/* universal on all pages */
 nav {
   display: flex;
   flex-direction: row;
@@ -80,17 +81,36 @@ a:hover{
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
-
+/* end universal on all pages */
 .backPurple{
-  color:white;
-  background-color:Purple;
+  color: white;
+  background-color: purple;
+}
+
+.pOutline{
+  border: 3px solid Purple;
 }
 
 
-
+/* template for pathways */
 #titleEighth {
   margin-top: 7%;
 }
+
+.card {
+  background-color: yellow;
+  width: 50%;
+  margin: 2%;
+  padding: 10%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#
+
+/* end template for pathways */
 
 /* CSS for Testing.html page */
 

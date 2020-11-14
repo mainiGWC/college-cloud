@@ -8,5 +8,13 @@ var fold = document.getElementByClassName("folding");
 var i;
 
 for(i = 0; i < fold.length; i++) {
-  fold[i].addEventListener("click", function)
+  fold[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var board = this.nextElementSibling;
+    if (board.style.maxHeight) {
+      board.style.maxHeight = null;
+    } else {
+      board.style.maxHeight = board.scrollHeight + "%";
+    }
+  });
 }
