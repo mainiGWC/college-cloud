@@ -91,53 +91,48 @@ a:hover{
   border: 3px solid Purple;
 }
 
+.smallImgSize{width: 10%; }
 
 /* template for pathways */
 #titleEighth {
   margin-top: 7%;
 }
 
-.card {
-  background-color: yellow;
-  width: 50%;
-  margin: 2%;
-  padding: 10%;
-  text-align: left;
+#courses {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  align-content: center; 
 }
 
-#
+.card {
+  background-color: yellow;
+  padding: 10%;
+  text-align: left;
+  width: 100%;
+}
+
+.scheduleChart {
+  float: left;
+}
+
+.scheduleText {
+  float: right;
+}
 
 /* end template for pathways */
 
 /* CSS for Testing.html page */
 
 /*Styling for accordian panels*/
-.folding{
-  background-color: #eee;
-  color: black;
+/*Testing*/
+.accordian {
+  font-size: 100px;
+/*   background-color: black;
+  color: #444;
   cursor: pointer;
-  padding: 10%;
+  padding: 18;
   width: 100%;
   text-align: left;
   border: none;
   outline: none;
-  transition: 0.6s;
-}
-
-/*Gray background color on hover */
-.active .folding:hover {
-  background-color: #ccc;
-}
-
-.panel {
-  background-color: white;
-  display: none;
-  overflow: hidden;
-  padding-bottom: 0;
-  padding-top: 0;
-  padding-right: 10%;
-  padding-left: 10%;
+  */
 }
