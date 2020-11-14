@@ -6,6 +6,36 @@ body {
 }
 
 h1 {
-  font-style: italic;
   color: #373fff;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+  padding-right: 20%;
+  justify-content: space-around;
+  align-items: right;
+}
+
+.navigation {
+  display: flex;
+  align-items: right;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
 }
