@@ -11,10 +11,10 @@ for(i = 0; i < fold.length; i++) {
   fold[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var board = this.nextElementSibling;
-    if (board.style.maxHeight) {
-      board.style.maxHeight = null;
+    if (board.style.display == "block") {
+      board.style.display = "none";
     } else {
-      board.style.maxHeight = board.scrollHeight + "%";
+      board.style.display = "block";
     }
   });
 }

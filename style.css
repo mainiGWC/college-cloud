@@ -12,7 +12,7 @@ h1 {
   float:left;
 }
 
-/* universal on all pages */
+/* universal nav on all pages */
 nav {
   display: flex;
   flex-direction: row;
@@ -81,7 +81,7 @@ a:hover{
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
-/* end universal on all pages */
+/* end universal nav on all pages */
 .backPurple{
   color: white;
   background-color: purple;
@@ -96,14 +96,17 @@ img.smallResize{
   height = 30%;
 }
 
+.picRight{
+  float: right;
+}
+
+.large{ font-size: 24pt;}
+.center {text-align: center;}
+
 /* template for pathways */
 #titleEighth {
   margin-top: 7%;
   text-align: center;
-}
-
-.articlePaths {
-  float: right;
 }
 
 #courses {
@@ -112,25 +115,23 @@ img.smallResize{
 
 .card {
   background-color: yellow;
-  padding: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   text-align: left;
-  width: 80%;
+  width: 90%;
   overflow: auto;
-}
-
-.scheduleChart {
-  float: left;
-  width: 20%;
-  height: 20%;
-}
-
-.scheduleText {
-  float: right;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* end template for pathways */
 
 /* CSS for Testing.html page */
+
 /* Styling for accordian type button*/
 .folding {
   background-color: #eee;
@@ -148,15 +149,11 @@ img.smallResize{
 .active, .folding:hover {
   background-color: #ccc;
 }
-
+/*TODO: fix px*/
 .board {
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 0 15px;
+  display:none;  
   background-color: white;
-  max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
 }
 
