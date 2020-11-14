@@ -204,12 +204,9 @@ img.smallResize {
 }
 /*Styling for text under drop down*/
 .board {
-  padding: 0 5%;
-  font-family: "Montserrat", sans-serif;
   display: none;
   background-color: white;
   overflow: hidden;
-  font-size: 100%;
   transition: max-height 0.5s ease-out;
 }
 
