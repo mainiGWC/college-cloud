@@ -125,10 +125,11 @@ img.smallResize{
   padding-bottom: 5%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
+.articlePaths{
+  padding-left: 20%;
+}
 
 /* end template for pathways */
 
