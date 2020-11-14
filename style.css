@@ -170,7 +170,7 @@ img.smallResize {
 
 /* end template for pathways */
 
-/* CSS for Testing.html page */
+/* CSS for Testing.html page begins */
 
 /* Styling for accordian type button*/
 .folding {
@@ -252,6 +252,11 @@ div.desc {
   display: table;
   clear: both;
 }
+
+.apExams {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+}
 /* End CSS for Testing.html page */
 
 /* link cards */
@@ -293,12 +298,6 @@ p {
   line-height: 200%;
 }
 
-.headingLinks {
-  font-size: 220%;
-  margin: 0;
-  font-family: "Zilla Slab", serif;
-}
-
 .titleLinks {
   margin-top: 4%;
   text-align: center;
@@ -306,3 +305,17 @@ p {
   font-size: 270%;
   margin-bottom: 4%;
 }
+
+.headingLinks {
+  font-size: 220%;
+  margin: 0;
+  font-family: "Zilla Slab", serif;
+}
+
+.subheadingLinks {
+  font-size: 190%;
+  margin: 0;
+  font-family: "Zilla Slab", serif;
+}
+
+
