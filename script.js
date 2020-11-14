@@ -4,14 +4,14 @@
 // prints "hi" in the browser's dev tools console
 console.log("hi");
 
-var fold = document.getElementByClassName("folding");
+var fol = document.getElementsByClassName("folding");
 var i;
 
-for(i = 0; i < fold.length; i++) {
-  fold[i].addEventListener("click", function() {
+for (i = 0; i < fol.length; i++) {
+  fol[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var board = this.nextElementSibling;
-    if (board.style.display == "block") {
+    if (board.style.display === "block") {
       board.style.display = "none";
     } else {
       board.style.display = "block";

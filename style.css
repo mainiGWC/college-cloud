@@ -103,6 +103,7 @@ img.smallResize{
 .large{ font-size: 24pt;}
 .center {text-align: center;}
 
+
 /* template for pathways */
 #titleEighth {
   margin-top: 7%;
@@ -128,6 +129,7 @@ img.smallResize{
   justify-content: center;
 }
 
+
 /* end template for pathways */
 
 /* CSS for Testing.html page */
@@ -151,9 +153,11 @@ img.smallResize{
 }
 /*TODO: fix px*/
 .board {
-  padding: 0 15px;
+  padding: 0 5%;
   display:none;  
   background-color: white;
   overflow: hidden;
+  font-size: 100%;
+  transition: max-height 0.5s ease-out;
 }
 
