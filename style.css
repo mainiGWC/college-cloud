@@ -164,8 +164,8 @@ img.smallResize {
   background-color: #eee;
   color: black;
   cursor: pointer;
-  padding: 2%;
-  width: 50%;
+  padding: 10%;
+  width: 100%;
   border: none;
   text-align: left;
   outline: none;
@@ -201,7 +201,7 @@ img.smallResize {
   padding-top: 20%;
 }
 div.gallery button {
-  width: 100%;
+  width: 110%;
   height: auto;
 }
 
@@ -213,7 +213,6 @@ div.desc {
 /*Question tabs*/
 .responsive {
   padding-left: 6%;
-  padding-bottom: 20%;
   float: left;
   width: 24.99999%;
 }
@@ -240,6 +239,9 @@ div.desc {
 .apExams {
   font-family: "Montserrat", sans-serif;
   font-size: 120%;
+}
+.apQuestions {
+  padding-bottom: 5%;
 }
 
 /*Groups text that need underlines */
