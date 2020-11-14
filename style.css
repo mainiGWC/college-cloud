@@ -6,7 +6,10 @@ body {
 }
 
 h1 {
-  color: #373fff;
+  color: black;
+  margin-bottom: 0;
+  margin-top: 1%;
+  float:left;
 }
 
 nav {
@@ -16,6 +19,8 @@ nav {
   padding-right: 20%;
   justify-content: space-around;
   align-items: right;
+  float: right;
+  margin-top: 0.5%;
 }
 
 .navigation {
@@ -38,4 +43,11 @@ a {
 
 a:hover{
   color: black;
+}
+
+.pathSpan {
+  border-right:1% solid #bbb;
+  padding:20%;
+  height: 5%;
+  width: 90%;
 }

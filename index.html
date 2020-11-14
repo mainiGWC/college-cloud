@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Hello!</title>
-    
+
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
+    <link rel="stylesheet" href="/style.css" />
+
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
-  </head>  
+  </head>
   <body>
     <h1><a href="index.html">Website Name</a></h1>
     <!-- Nav elements -->
     <nav>
-      <ul class = "navigation">
+      <ul class="navigation">
         <li>
-          <a href = "index.html">Home</a>
+          <a href="index.html">Home</a>
         </li>
+        <div class="dropdown">
+          <span class="pathSpan">Pathways</span>
+          <div class="dropdown-content">
+            <a href="eighth-grade.html" id="container1">8th Grade</a>
+            <a href="ninth-grade.html" id="container2">9th Grade</a>
+            <a href="tenth-grade.html" id="container3">10th Grade</a>
+            <a href="eleventh-grade.html" id="container4">11th Grade</a>
+            <a href="twelfth-grade" id="container5">12th Grade</a>
+          </div>
+        </div>
         <li>
-          <a href= "pathways.html">Pathways</a>
-        </li>
-        <li>
-          <a href= "resources.html">Resources</a>
+          <a href="resources.html">Resources</a>
         </li>
         <li>
           <a href="testing.html">Testing</a>
@@ -35,7 +42,5 @@
         </li>
       </ul>
     </nav>
-    <h1>Hi there!</h1>
-
   </body>
 </html>
