@@ -82,8 +82,14 @@ a:hover{
 }
 
 .backPurple{
-  color: white;
-  background-color: Purple;
+  color:white;
+  background-color:Purple;
+}
+
+
+
+#titleEighth {
+  margin-top: 7%;
 }
 
 /* CSS for Testing.html page */
@@ -101,10 +107,17 @@ a:hover{
   transition: 0.6s;
 }
 
+/*Gray background color on hover */
 .active .folding:hover {
-  background-color: #
+  background-color: #ccc;
 }
 
-#titleEighth {
-  
+.panel {
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-right: 10%;
+  padding-left: 10%;
 }
