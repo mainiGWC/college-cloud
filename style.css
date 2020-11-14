@@ -44,17 +44,24 @@ li {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 a:hover{
-  color: black;
+  color: #b5b5b5;
 }
 
 .pathBtn {
   border-style: none;
   background-color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 10pt;
+  font-size: 15pt;
+  color: black;
+}
+
+.pathBtn:hover{
+  color: #b5b5b5;
+  font-size: 15pt;
 }
 
 .dropdown {
@@ -141,6 +148,19 @@ img.smallResize{
   font-family: 'Zilla Slab', serif;
 }
 
+.scheduleChart {
+  
+}
+
+.headingPaths {
+  font-size: 25pt;
+  margin: 0;
+}
+
+.scheduleText {
+  font-size: 15pt;
+}
+
 /* end template for pathways */
 
 /* CSS for Testing.html page */
@@ -163,7 +183,18 @@ img.smallResize{
 .active, .folding:hover {
   background-color: #ccc;
 }
-/*TODO: fix px*/
+.folding:after {
+  content: '\02795'; /*unicode for plus sign*/
+  font-size: 50%;
+  color: #777;
+  float: right;
+  margin-left: 2%;
+  border: none;
+}
+.active:after {
+  content: '\2796'
+}
+/*Styling for text under drop down*/
 .board {
   padding: 0 5%;
   font-family: 'Montserrat', sans-serif;
