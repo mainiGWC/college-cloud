@@ -209,35 +209,32 @@ img.smallResize {
   overflow: hidden;
   transition: max-height 0.5s ease-out;
 }
-div.gallery {
-  border: 1px solid #ccc;
-}
 
-div.gallery:hover {
-  border: 1px solid #777;
+.gallery {
+  padding-top: 20%;
 }
-
 div.gallery button {
   width: 100%;
   height: auto;
 }
 
 div.desc {
-  padding: 15px;
+  padding: 15%;
   text-align: center;
 }
-
-* {
-  box-sizing: border-box;
+/*Only for first tab to prevent padding on left of scren*/
+#responsive {
+  float: left;
+  width: 24.99999%;
 }
-
+/*Question tabs*/
 .responsive {
-  padding: 0 6px;
+  padding-left: 6%;
   float: left;
   width: 24.99999%;
 }
 
-@media only screen and (max-width: 300%) {
+@media only screen and (max-width: 700%) {
   .responsive {
     width: 49.99999%;
     margin: 6% 0;
