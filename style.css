@@ -9,27 +9,21 @@ h1 {
   color: black;
   margin-bottom: 0;
   margin-top: 1%;
-  padding-right: 100%;
-/*   float:left; */
-  font-family: 'Mali', cursive;
-
+  padding-right: 10%;
+  /*   float:left; */
+  font-family: "Mali", cursive;
 }
 
 /* universal nav on all pages */
 nav {
   display: flex;
   flex-direction: row;
-  margin-bottom: 10%;
-  padding-right: 20%;
-  justify-content: space-around;
-  float: right;
-  margin-top: 0.5%;
 }
 
 .navigation {
   display: flex;
   align-items: right;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15pt;
 }
 
@@ -47,19 +41,19 @@ a {
   color: black;
 }
 
-a:hover{
+a:hover {
   color: #b5b5b5;
 }
 
 .pathBtn {
   border-style: none;
   background-color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15pt;
   color: black;
 }
 
-.pathBtn:hover{
+.pathBtn:hover {
   color: #b5b5b5;
   font-size: 15pt;
 }
@@ -85,7 +79,9 @@ a:hover{
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -95,33 +91,37 @@ a:hover{
   background-color: #3e8e41;
 }
 /* end universal nav on all pages */
-.backPurple{
+.backPurple {
   color: white;
   background-color: purple;
 }
 
-.pOutline{
+.pOutline {
   border: 3px solid Purple;
 }
 
-img.smallResize{
+img.smallResize {
   width: 30%;
-  height = 30%;
+  height: 30%;
 }
 
-.picRight{
+.picRight {
   float: right;
 }
 
-.large{ font-size: 24pt;}
-.center {text-align: center;}
+.large {
+  font-size: 24pt;
+}
+.center {
+  text-align: center;
+}
 
 
 /* template for pathways */
 #titleEighth {
   margin-top: 7%;
   text-align: center;
-  font-family: 'Zilla Slab', serif;
+  font-family: "Zilla Slab", serif;
   font-size: 30pt;
 }
 
@@ -142,16 +142,15 @@ img.smallResize{
   flex-direction: row;
 }
 
-.articlePaths{
+.articlePaths {
   padding-left: 20%;
 }
 
 .headingPaths {
-  font-family: 'Zilla Slab', serif;
+  font-family: "Zilla Slab", serif;
 }
 
 .scheduleChart {
-  
 }
 
 .headingPaths {
@@ -166,6 +165,7 @@ img.smallResize{
 .questionsPaths {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* end template for pathways */
@@ -184,14 +184,15 @@ img.smallResize{
   outline: none;
   font-size: 120%;
   transition: 0.5s;
-  font-family: 'Zilla Slab', serif;
+  font-family: "Zilla Slab", serif;
 }
 /*Highlights on hover*/
-.active, .folding:hover {
+.active,
+.folding:hover {
   background-color: #ccc;
 }
 .folding:after {
-  content: '\02795'; /*unicode for plus sign*/
+  content: "\02795"; /*unicode for plus sign*/
   font-size: 50%;
   color: #777;
   float: right;
@@ -199,16 +200,15 @@ img.smallResize{
   border: none;
 }
 .active:after {
-  content: '\2796'
+  content: "\2796";
 }
 /*Styling for text under drop down*/
 .board {
   padding: 0 5%;
-  font-family: 'Montserrat', sans-serif;
-  display:none;  
+  font-family: "Montserrat", sans-serif;
+  display: none;
   background-color: white;
   overflow: hidden;
   font-size: 100%;
   transition: max-height 0.5s ease-out;
 }
-
