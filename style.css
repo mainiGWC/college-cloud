@@ -45,9 +45,66 @@ a:hover{
   color: black;
 }
 
-.pathSpan {
-  border-right:1% solid #bbb;
-  padding:20%;
-  height: 5%;
-  width: 90%;
+.pathBtn {
+  border-style: none;
+  background-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* things in dropdown */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 40%;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10% 15%;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.backPurple{
+  color: white;
+  background-color: Purple;
+}
+
+/* CSS for Testing.html page */
+
+/*Styling for accordian panels*/
+.folding{
+  background-color: #eee;
+  color: black;
+  cursor: pointer;
+  padding: 10%;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.6s;
+}
+
+.active .folding:hover {
+  background-color: #
+}
+
+#titleEighth {
+  
 }
