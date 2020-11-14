@@ -235,23 +235,46 @@ img.smallResize {
   justify-content: center;
 }
 
-.card {
-  background-color: white;
-  width: 30%;
-  margin: 2%;
-  padding: 25px;
+.cardLinks {
+  background-color: #d3e7f0;
+  padding-left: 5%;
+  padding-right: 5%;
   text-align: left;
+  width: 30%;
+  overflow: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 5%;
+  margin-top: 0;
 }
 
 .redirects {
-  font-size: 23px;
+  font-size: 20pt;
   text-decoration: underline;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Zilla Slab", serif;
   line-height: 1.5;
+}
+
+.redirects:hover {
+  color: #6b838f;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 15pt;
   line-height: 200%;
+}
+
+.headingLinks {
+  font-size: 25pt;
+  margin: 0;
+  font-family: "Zilla Slab", serif;
+}
+
+.titleLinks {
+  margin-top: 4%;
+  text-align: center;
+  font-family: "Zilla Slab", serif;
+  font-size: 30pt;
+  margin-bottom: 4%;
 }
