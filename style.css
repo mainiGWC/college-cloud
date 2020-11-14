@@ -10,7 +10,8 @@ h1 {
   margin-bottom: 0;
   margin-top: 1%;
   float:left;
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Mali', cursive;
+
 }
 
 /* universal nav on all pages */
@@ -23,6 +24,8 @@ nav {
   align-items: right;
   float: right;
   margin-top: 0.5%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15pt;
 }
 
 .navigation {
@@ -50,6 +53,8 @@ a:hover{
 .pathBtn {
   border-style: none;
   background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10pt;
 }
 
 .dropdown {
@@ -132,7 +137,9 @@ img.smallResize{
   padding-left: 20%;
 }
 
-
+.headingPaths {
+  font-family: 'Zilla Slab', serif;
+}
 
 /* end template for pathways */
 
@@ -150,6 +157,7 @@ img.smallResize{
   outline: none;
   font-size: 120%;
   transition: 0.5s;
+  font-family: 'Zilla Slab', serif;
 }
 /*Highlights on hover*/
 .active, .folding:hover {
@@ -158,6 +166,7 @@ img.smallResize{
 /*TODO: fix px*/
 .board {
   padding: 0 5%;
+  font-family: 'Montserrat', sans-serif;
   display:none;  
   background-color: white;
   overflow: hidden;
