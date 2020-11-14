@@ -9,7 +9,8 @@ h1 {
   color: black;
   margin-bottom: 0;
   margin-top: 1%;
-  float:left;
+  padding-right: 100%;
+/*   float:left; */
   font-family: 'Mali', cursive;
 
 }
@@ -21,16 +22,15 @@ nav {
   margin-bottom: 10%;
   padding-right: 20%;
   justify-content: space-around;
-  align-items: right;
   float: right;
   margin-top: 0.5%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15pt;
 }
 
 .navigation {
   display: flex;
   align-items: right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15pt;
 }
 
 ul {
@@ -121,6 +121,8 @@ img.smallResize{
 #titleEighth {
   margin-top: 7%;
   text-align: center;
+  font-family: 'Zilla Slab', serif;
+  font-size: 30pt;
 }
 
 #courses {
@@ -159,6 +161,11 @@ img.smallResize{
 
 .scheduleText {
   font-size: 15pt;
+}
+
+.questionsPaths {
+  display: flex;
+  flex-direction: row;
 }
 
 /* end template for pathways */
