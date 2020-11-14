@@ -209,14 +209,11 @@ div.desc {
   padding: 15%;
   text-align: center;
 }
-/*Only for first tab to prevent padding on left of scren*/
-/* #responsive {
-  float: left;
-  width: 24.99999%;
-} */
+
 /*Question tabs*/
 .responsive {
   padding-left: 6%;
+  padding-bottom: 20%;
   float: left;
   width: 24.99999%;
 }
