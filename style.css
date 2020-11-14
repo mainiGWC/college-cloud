@@ -118,7 +118,7 @@ img.smallResize {
 
 
 /* template for pathways */
-#titleEighth {
+.titlePaths {
   margin-top: 4%;
   text-align: center;
   font-family: "Zilla Slab", serif;
@@ -224,4 +224,34 @@ img.smallResize {
   content: "";
   display: table;
   clear: both;
+}
+
+/* link cards */
+
+.cardRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  width: 30%;
+  margin: 2%;
+  padding: 25px;
+  text-align: left;
+}
+
+.redirects {
+  font-size: 23px;
+  text-decoration: underline;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 200%;
 }
