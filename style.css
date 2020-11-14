@@ -150,7 +150,7 @@ img.smallResize {
   font-size: 15pt;
 }
 
-#scheduleChart {
+.scheduleChart {
   width: 100%;
   height: 100%;
 }
@@ -244,6 +244,11 @@ div.desc {
   font-family: "Montserrat", sans-serif;
   font-size: 120%;
 }
+
+/*Groups text that need underlines */
+.underlineLinks {
+  text-decoration: underline; 
+}
 /* End CSS for Testing.html page */
 
 /* link cards */
@@ -281,7 +286,7 @@ div.desc {
 
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 130%;
+  font-size: 90%;
   line-height: 200%;
 }
 
