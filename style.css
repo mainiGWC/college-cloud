@@ -209,21 +209,51 @@ img.smallResize {
   overflow: hidden;
   transition: max-height 0.5s ease-out;
 }
-
-/* Creates four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
+div.gallery {
+  border: 1px solid #ccc;
 }
 
-/* Clear floats after rows */
-.row:after {
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery button {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 300%) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6% 0;
+  }
+}
+
+@media only screen and (max-width: 200%) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
   content: "";
   display: table;
   clear: both;
-}
-.column {
-  padding-top: 5%;
 }
 /* End CSS for Testing.html page */
 
