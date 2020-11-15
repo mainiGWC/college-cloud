@@ -1,8 +1,10 @@
 /* CSS files add styling rules to your content */
-
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+  margin-top: 2em;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-bottom: 0;
 }
 
 h1 {
@@ -24,6 +26,8 @@ h1 {
   overflow: auto;
   padding-top: 4%;
   padding-bottom: 4%;
+  max-width: 40%;
+  max-height: 30%;
   margin-top: 8%;
   margin-bottom: 5%;
 }
@@ -51,6 +55,7 @@ h1 {
   margin: 0;
   float: left;
   margin-top: 2%;
+  max-width: 30%;
   font-family: "Montserrat", sans-serif;
   line-height: 200%;
 }
@@ -92,6 +97,8 @@ h1 {
   height: 55%;
   width: 60%;
   border-radius: 5%;
+  object-fit: cover;
+
 }
 
 /*Creator #2*/
@@ -99,6 +106,8 @@ h1 {
   height: 55%;
   width: 59%;
   border-radius: 5%;
+  object-fit: cover;
+
 }
 /*Creator #3*/
 #mansiImg {
@@ -197,31 +206,31 @@ h3 {
 }
 
 .imgResize1 {
-  width: 30%;
-  height: 30%;
+  width: 31%;
+  height: 25%;
 }
 
 .imgResize2 {
-  width: 30%;
-  height: 40%;
+  width: 32%;
+  height: 30%;
 }
 
 
 .imgResize3 {
-  width: 30%;
+  width: 35%;
   height: 30%;
 }
 
 
 .imgResize4 {
-  width: 30%;
-  height: 30%;
+  width: 32%;
+  height: 40%;
 }
 
 
 .imgResize5 {
   width: 30%;
-  height: 30%;
+  height: 45%;
 }
 
 .picRight {
@@ -406,6 +415,7 @@ div.desc {
   font-size: 25pt;
   font-family: "Zilla Slab", serif;
   margin-left: 5%;
+  margin-top: 0;
 }
 
 .testingText {
@@ -433,12 +443,9 @@ div.desc {
 }
 
 .imgTesting {
-  width: 60%;
-  height: 90%;
-  float: right;
-  padding-left: 2%;
-  margin-left: 1%;
-  margin-top: 1%;
+  width: 110%;
+  height: 80%;
+  overflow: auto;
 }
 
 .imageTesting {
@@ -674,10 +681,4 @@ th, td {
   margin-bottom: 4%;
   line-height: 200%;
   font-size: 12pt;
-}
-/*footer*/
-html{
-  background: url(https://cdn.glitch.com/7cac8bfd-ff0c-4dbd-a9c2-935545fb5c0f%2Ffooter-background.png?v=1596769578403) no-repeat;
-  background-position: bottom;
-  background-size: 110%;
 }
