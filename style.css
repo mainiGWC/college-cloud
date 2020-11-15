@@ -279,10 +279,14 @@ div.desc {
   font-size: 25pt;
   margin: 0;
   font-family: "Zilla Slab", serif;
+  float: right;
+  padding-left: 10%;
 }
 
 .testingText {
   font-size: 15pt;
+  float:right;
+  padding-left: 10%;
 }
 
 .cardLine {
@@ -294,9 +298,22 @@ div.desc {
 }
 
 .imgTest {
-  width: 70%;
-  height: 70%;
+  width: 50%;
+  height: 50%;
+  float: left;
 }
+
+.articleTestRight{
+  float:right;
+}
+/* .allTest {
+  display: flex;
+}
+
+.column{
+  flex: 33.33%;
+  padding: 5px;
+} */
 
 /* End CSS for Testing.html page */
 
