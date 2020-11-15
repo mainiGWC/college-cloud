@@ -257,6 +257,16 @@ h3 {
   font-size: 30pt;
 }
 
+.activitiesText {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.listAct {
+  font-family: "Montserrat", sans-serif;
+}
+
 /* template for pathways */
 .titlePaths {
   margin-top: 4%;
@@ -398,6 +408,10 @@ div.desc {
 
 .bold { text-decoration: bold}
 
+#checklistLink {
+  text-decoration: underline;
+}
+
 .activityQuestions{
   background-color: #f8d6bd;
   padding-left: 2%;
@@ -416,20 +430,19 @@ div.desc {
 
 .stepExtras{
   background-color: #f8d6bd;
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   width: 76%;
   overflow: auto;
   padding-top: 1%;
   padding-bottom: 1%;
-  margin: 4%;
   margin-top: 0;
-  margin-bottom: 2;
+  margin-bottom: 2%;
   font-family: "Zilla Slab", serif;
   float: center;
 }
 
-.checklistWidth{width: 80%;}
+.Width{width: 80%;}
 
 .headingTest {
   text-align: left;
