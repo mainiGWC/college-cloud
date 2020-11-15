@@ -239,6 +239,7 @@ h3 {
 }
 .center {
   text-align: center;
+  float: center;
 }
 
 /* template for pathways */
@@ -403,7 +404,6 @@ div.desc {
   background-color: #f8d6bd;
   padding-left: 1%;
   padding-right: 1%;
-  text-align: left;
   width: 76%;
   overflow: auto;
   padding-top: 1%;
@@ -412,7 +412,6 @@ div.desc {
   margin-top: 0;
   margin-bottom: 2;
   font-family: "Zilla Slab", serif;
-  font-size: 24pt;
   float: center;
 }
 }
@@ -440,6 +439,32 @@ div.desc {
   margin-left: 25%;
   margin-top: 0;
   width: 60%;
+}
+
+.headingAct {
+  text-align: left;
+  font-size: 25pt;
+  font-family: "Zilla Slab", serif;
+  margin-left: 30%;
+  width: 50%;
+}
+
+.textAct {
+  font-size: 13pt;
+  font-family: "Montserrat", sans-serif;
+  line-height: 200%;
+  text-align: left;
+  margin-left: 30%;
+  width: 50%;
+}
+
+.actImg {
+  
+}
+.imgTest {
+  width: 140%;
+  height: 35%;
+  margin-left: 0;
 }
 
 .testingText {
@@ -536,7 +561,17 @@ div.desc {
   width: 50%;
   margin:0;
   padding: 0;
-  
+}
+
+.imageSat{
+  width: 65%;
+  height: 15%;
+}
+
+.headingSat {
+  font-size: 25pt;
+  margin: 0;
+  font-family: "Zilla Slab", serif;
 }
 
 #listItems {
