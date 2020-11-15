@@ -164,7 +164,10 @@ a:hover {
   background-color: #eee;
   color: black;
   cursor: pointer;
-  padding: 10% 20%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 20%;
+  padding-right: 10%;
   width: 100%;
   border: none;
   text-align: left;
@@ -205,7 +208,6 @@ div.desc {
 /*Question tabs*/
 .responsive {
   padding-left: 6%;
-  padding-top: 8%;
   float: left;
   width: 24.99999%;
 }
@@ -228,6 +230,8 @@ div.desc {
 }
 .apQuestions {
   padding-bottom: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 /*Groups text that need underlines */
@@ -315,6 +319,7 @@ p {
   text-align: center;
   font-family: "Zilla Slab", serif;
   font-size: 30pt;
+  margin-bottom: 0;
 }
 
 .foldingFAQ {
@@ -329,7 +334,7 @@ p {
   font-size: 150%;
   transition: 0.5s;
   font-family: "Zilla Slab", serif;
-  margin-top: 4%;
+  margin-top: 0;
 }
 
 /*Highlights drop down menus on hover*/
@@ -342,14 +347,15 @@ p {
   font-size: 60%;
   color: #777;
   float: right;
-  margin-left: 2%;
+  margin-left: 20%;
+  margin-right: 0;
   border: none;
   padding: 0;
-  margin-top: 1.5%;
+  margin-top: 8%;
 }
 .active:after {
   content: "\2796";
-  margin-top: 1.5%;
+  margin-top: 8%;
 }
 /*Styling for text under drop down*/
 .board {
@@ -378,4 +384,10 @@ p {
   .responsiveFAQ {
     width: 100%;
   }
+}
+
+.bigFAQ {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
