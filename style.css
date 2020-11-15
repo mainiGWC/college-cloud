@@ -399,6 +399,23 @@ div.desc {
   float: center;
 }
 
+.stepExtras{
+  background-color: #f8d6bd;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: left;
+  width: 76%;
+  overflow: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: 3%;
+  margin-top: 0;
+  margin-bottom: 2;
+  font-family: "Zilla Slab", serif;
+  font-size: 24pt;
+  float: center;
+}
+}
 .extraCheck{
   background-color: #f8d6bd;
   padding-left: 1%;
@@ -538,10 +555,6 @@ div.desc {
   margin-right: 2%;
 }
 
-.articleTestRight {
-  float: right;
-}
-
 table, th, td {
   margin-top: 4%;
   border: 0;
@@ -550,62 +563,6 @@ table, th, td {
 }
 th, td {
   padding: 0;
-}
-
-#workPlease {
-  padding: 0;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-.satHeading {
-  text-align: left;
-  font-size: 25pt;
-  font-family: "Zilla Slab", serif;
-  margin-top: 0;
-  width: 60%;
-}
-
-.satText {
-  font-size: 13pt;
-  font-family: "Montserrat", sans-serif;
-  line-height: 200%;
-  text-align: left;
-  width: 70%;
-}
-
-.satImage {
-  width: 40%;
-  height: 20%;
-  margin-left: 20%;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.actHeading {
-  text-align: left;
-  font-size: 25pt;
-  font-family: "Zilla Slab", serif;
-  margin-top: 0;
-  width: 60%;
-}
-
-.actText {
-  font-size: 13pt;
-  font-family: "Montserrat", sans-serif;
-  line-height: 200%;
-  text-align: left;
-  width: 70%;
-}
-
-.actImage {
-  width: 40%;
-  height: 20%;
-  margin-left: 20%;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 /* End CSS for Testing.html page */
