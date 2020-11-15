@@ -223,34 +223,19 @@ h3 {
   float: left;
 }
 
-.imgResize1 {
-  width: 48%;
-  height: 25%;
+.imgResize {
+  width: 50%;
+  float: center
 }
 
-.imgResize3 {
-  width: 48%;
-  height: 18%;
-}
-
-.imgResize2 {
-  width: 48%;
-  height: 20%;
+.imgLargeResize{
+  width: 30%;
+  margin: 3;
 }
 
 
 
 
-.imgResize4 {
-  width: 20%;
-  height: 41;
-}
-
-
-.imgResize5 {
-  width: 20%;
-  height: 45%;
-}
 
 .picRight {
   float: right;
@@ -466,8 +451,8 @@ div.desc {
 }
 
 .imgAct {
-  width: 400%;
-  height: 125%;
+  width: 350%;
+  height: 100%;
   margin-left: 0;
 }
 
@@ -534,13 +519,17 @@ div.desc {
   color: #6b838f;
 }
 
+.underlineLinks {
+  text-decoration: underline;
+}
+
 .testTexts {
   font-size: 14pt;
   text-align: left;
   margin-top: 2%;
   font-family: "Montserrat", sans-serif;
   line-height: 200%;
-  width: 80%;
+  width: 70%;
 }
 
 .headingTesting {
@@ -568,8 +557,9 @@ div.desc {
 }
 
 .imageSat{
-  width: 65%;
+  width: 120%;
   height: 15%;
+  margin-left: -40%;
 }
 
 .headingSat {
