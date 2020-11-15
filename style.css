@@ -275,6 +275,11 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 100%;
   line-height: 200%;
+  margin-top: 0;
+}
+
+#firstQ {
+  margin-bottom: 4%;
 }
 
 .titleLinks {
