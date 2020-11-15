@@ -23,16 +23,52 @@ h1 {
   width: 30%;
   overflow: auto;
   padding-top: 4%;
-  padding-bottom: 4%;
-  margin: 30%;
   margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 40%;
+  margin-left: 40%;
 }
 /*Start creator styling*/
+/* Add padding BETWEEN each column */
+.row1,
+.row1 > .column1 {
+    padding-left: 40px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 30%;
+}
+
+/* Clear floats after rows */ 
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* End of Images */
+#mirandaImg, #mansiImg, #ingridImg {
+  padding-top: 5%;
+  width: 30%;
+  height: auto;
+}
 /* Text under Images */
 .under-photo {
-font-size: 20%;
-max-width: 75%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
 }
+/* names */
+
+.name {
+  font-size: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 75%;
+}
+
 /*End creator styling*/
 /*End index styling*/
 /* universal nav on all pages */
