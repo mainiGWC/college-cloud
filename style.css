@@ -196,7 +196,30 @@ h3 {
   float: left;
 }
 
-.smallResize {
+.imgResize1 {
+  width: 30%;
+  height: 30%;
+}
+
+.imgResize2 {
+  width: 30%;
+  height: 40%;
+}
+
+
+.imgResize3 {
+  width: 30%;
+  height: 30%;
+}
+
+
+.imgResize4 {
+  width: 30%;
+  height: 30%;
+}
+
+
+.imgResize5 {
   width: 30%;
   height: 30%;
 }
@@ -379,22 +402,18 @@ div.desc {
 }
 
 .headingTest {
+  text-align: left;
   font-size: 25pt;
-  float: left;
-  text-align: center;
-  margin: 0;
   font-family: "Zilla Slab", serif;
-  padding-left: 2%;
-  margin-left: 2%;
+  margin-left: 5%;
 }
 
 .testingText {
   font-size: 13pt;
-  padding-left: 2%;
-  margin-left: 2%;
   font-family: "Montserrat", sans-serif;
   line-height: 200%;
   text-align: left;
+  margin-left: 5%;
 }
 
 .cardLine {
@@ -410,6 +429,7 @@ div.desc {
   height: 30%;
   margin-left: 0;
   object-fit: cover;
+  overflow: visible;
 }
 
 .imgTesting {
@@ -475,7 +495,7 @@ table, th, td {
   margin-top: 4%;
   border: 1px solid black;
   border-collapse: collapse;
-  overflow: auto;
+  overflow: visible;
 }
 th, td {
   padding: 15px;
@@ -654,4 +674,10 @@ th, td {
   margin-bottom: 4%;
   line-height: 200%;
   font-size: 12pt;
+}
+/*footer*/
+html{
+  background: url(https://cdn.glitch.com/7cac8bfd-ff0c-4dbd-a9c2-935545fb5c0f%2Ffooter-background.png?v=1596769578403) no-repeat;
+  background-position: bottom;
+  background-size: 110%;
 }
