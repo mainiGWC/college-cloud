@@ -10,13 +10,24 @@ body {
 h1 {
   color: black;
   margin-bottom: 0;
-  margin-top: 1%;
+  margin-top: 0.5%;
   padding-right: 10%;
   font-family: "Mali", cursive;
   float: left;
 }
 
 /* index styling*/
+#welcome {
+  font-size: 30pt;
+  margin: 0;
+  text-align: left;
+  font-family: "Zilla Slab", serif;
+  margin-top: 4%;
+}
+/*testing 1, 2, 3*/
+.collegeCloud {
+  font-size: 120%;
+}
 .intro {
   background-color: #f8d6bd;
   padding-left: 4%;
@@ -26,7 +37,7 @@ h1 {
   overflow: auto;
   padding-top: 4%;
   padding-bottom: 4%;
-  margin-top: 8%;
+  margin-top: 10%;
   margin-bottom: 5%;
 }
 /*Start creator styling*/
@@ -408,29 +419,13 @@ div.desc {
   overflow: auto;
   padding-top: 1%;
   padding-bottom: 1%;
-  margin: 3%;
+  margin: 4%;
   margin-top: 0;
   margin-bottom: 2;
   font-family: "Zilla Slab", serif;
   float: center;
 }
-}
-.extraCheck{
-  background-color: #f8d6bd;
-  padding-left: 1%;
-  padding-right: 1%;
-  text-align: center;
-  width: 76%;
-  overflow: auto;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  margin: 3%;
-  margin-top: 0;
-  margin-bottom: 2;
-  font-family: "Zilla Slab", serif;
-  font-size: 24pt;
-  float: center;
-}
+
 
 .headingTest {
   text-align: left;
@@ -445,7 +440,7 @@ div.desc {
   text-align: left;
   font-size: 25pt;
   font-family: "Zilla Slab", serif;
-  margin-left: 30%;
+  margin-left: 35%;
   width: 50%;
 }
 
@@ -454,16 +449,13 @@ div.desc {
   font-family: "Montserrat", sans-serif;
   line-height: 200%;
   text-align: left;
-  margin-left: 30%;
+  margin-left: 35%;
   width: 50%;
 }
 
-.actImg {
-  
-}
-.imgTest {
-  width: 140%;
-  height: 35%;
+.imgAct {
+  width: 400%;
+  height: 125%;
   margin-left: 0;
 }
 
@@ -793,7 +785,3 @@ th, td {
    object-fit: cover;
   text-align: center;
 }
-#footerProblem {
-  margin-bottom: 80%;
-}
-
