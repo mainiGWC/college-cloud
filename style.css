@@ -470,9 +470,14 @@ div.desc {
   float: right;
 }
 
-.columnTest {
-  overflow: auto;
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
+th, td {
+  padding: 15px;
+}
+
 /* End CSS for Testing.html page */
 
 /* link cards */
@@ -544,6 +549,8 @@ div.desc {
   margin: 0;
   font-family: "Zilla Slab", serif;
 }
+
+
 
 /* FAQ's */
 .titleFAQ {
