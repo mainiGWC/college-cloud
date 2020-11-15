@@ -1,7 +1,5 @@
 ## Welcome to College Cloud
 
-TODO: insert image here when upload
-
 ### Your Project
 
 A website that allows users to find college preparatory information and commonly asked questions in the college process.
