@@ -18,7 +18,7 @@ h1 {
 
 /* index styling*/
 .intro {
-  background-color: #d3e7f0;
+  background-color: #f8d6bd;
   padding-left: 4%;
   padding-right: 4%;
   text-align: left;
@@ -257,7 +257,7 @@ h3 {
 }
 
 .card {
-  background-color: #d3e7f0;
+  background-color: #f8d6bd;
   padding-left: 5%;
   padding-right: 5%;
   text-align: left;
@@ -383,9 +383,9 @@ div.desc {
 .bold { text-decoration: bold}
 
 .activityQuestions{
-  background-color: #d3e7f0;
-  padding-left: 1%;
-  padding-right: 1%;
+  background-color: #f8d6bd;
+  padding-left: 2%;
+  padding-right: 2%;
   text-align: center;
   width: 35%;
   overflow: auto;
@@ -400,11 +400,11 @@ div.desc {
 }
 
 .extraCheck{
-  background-color: #d3e7f0;
+  background-color: #f8d6bd;
   padding-left: 1%;
   padding-right: 1%;
   text-align: center;
-  width: 75%;
+  width: 76%;
   overflow: auto;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -414,18 +414,6 @@ div.desc {
   font-family: "Zilla Slab", serif;
   font-size: 24pt;
   float: center;
-}
-
-
-.card {
-  background-color: #d3e7f0;
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align: left;
-  width: 90%;
-  overflow: auto;
-  padding-top: 3%;
-  padding-bottom: 3%;
 }
 
 .headingTest {
@@ -570,6 +558,56 @@ th, td {
   padding-left: 0;
 }
 
+.satHeading {
+  text-align: left;
+  font-size: 25pt;
+  font-family: "Zilla Slab", serif;
+  margin-top: 0;
+  width: 60%;
+}
+
+.satText {
+  font-size: 13pt;
+  font-family: "Montserrat", sans-serif;
+  line-height: 200%;
+  text-align: left;
+  width: 70%;
+}
+
+.satImage {
+  width: 40%;
+  height: 20%;
+  margin-left: 20%;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.actHeading {
+  text-align: left;
+  font-size: 25pt;
+  font-family: "Zilla Slab", serif;
+  margin-top: 0;
+  width: 60%;
+}
+
+.actText {
+  font-size: 13pt;
+  font-family: "Montserrat", sans-serif;
+  line-height: 200%;
+  text-align: left;
+  width: 70%;
+}
+
+.actImage {
+  width: 40%;
+  height: 20%;
+  margin-left: 20%;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* End CSS for Testing.html page */
 
 /* link cards */
@@ -582,7 +620,7 @@ th, td {
 }
 
 .cardLinks {
-  background-color: #d3e7f0;
+  background-color: #f8d6bd;
   padding-left: 4%;
   padding-right: 4%;
   text-align: left;
@@ -760,15 +798,6 @@ th, td {
   bottom: 0;
   width: 100%;
   max-height: 5%;
-   object-fit: cover;
-  text-align: center;
-}
-#footer2 {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  max-height: 15%;
    object-fit: cover;
   text-align: center;
 }
