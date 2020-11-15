@@ -51,6 +51,8 @@ h1 {
   margin: 0;
   float: left;
   margin-top: 2%;
+  font-family: "Montserrat", sans-serif;
+  line-height: 200%;
 }
 
 .titleMission {
@@ -83,8 +85,8 @@ h1 {
 }
 
 #mirandaImg {
-  height: 60%;
-  width: 40%;
+  height: 70%;
+  width: 45%;
 }
 
 #ingridImg {
@@ -357,9 +359,11 @@ div.desc {
 }
 
 .testingText {
-  font-size: 15pt;
+  font-size: 13pt;
   padding-left: 2%;
   margin-left: 2%;
+  font-family: "Montserrat", sans-serif;
+  line-height: 200%;
 }
 
 .cardLine {
@@ -394,6 +398,27 @@ div.desc {
   padding-right: 2%;
   margin-right: 1%;
   margin-top: 1.5%;
+}
+
+.testingP {
+  text-align: left;
+  margin: 0;
+  float: left;
+  margin-top: 2%;
+  font-family: "Montserrat", sans-serif;
+  line-height: 200%;
+}
+
+.testingLinks {
+  font-size: 20pt;
+  text-decoration: underline;
+  font-family: "Zilla Slab", serif;
+  line-height: 1.5;
+  margin-top: 4%;
+}
+
+.testingLinks:hover {
+  color: #6b838f;
 }
 
 .testTexts {
