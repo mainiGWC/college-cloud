@@ -27,6 +27,14 @@ h1 {
   margin: 30%;
   margin-top: 10%;
 }
+/*Start creator styling*/
+/* Text under Images */
+.under-photo {
+font-size: 20%;
+max-width: 75%;
+}
+/*End creator styling*/
+/*End index styling*/
 /* universal nav on all pages */
 nav {
   display: flex;
