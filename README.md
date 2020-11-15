@@ -1,12 +1,12 @@
-i# Welcome to College Cloud
+## Welcome to College Cloud
 
 TODO: insert image here when upload
 
-## Your Project
+### Your Project
 
 A website that allows users to find college preparatory information and commonly asked questions in the college process.
 
-## Inspiration
+### Inspiration
 
 In some cases, students may not be able to afford intensive counseling
 and have access to resources that can guide them through middle school and
@@ -19,14 +19,14 @@ or a four-year university through college preparatory information and commonly
 asked questions. We hope to inspire and guide students to fulfilling their
 full potential.
 
-## What it does
+### What it does
 
 College Cloud is an essential tool for students to use. Students who
 may not know where to start, when it comes to college, can find all the
 resources they need: from links to study tools to sample pathways for each grade,
 starting from middle school.
 
-## How I built it
+### How we built it
 
 College Cloud is a seamlessly functioning site with a navigation bar always at
 the top of the screen for users to maneuver. The pages are filled with links,
@@ -37,30 +37,21 @@ each page in an effort to unify the site in its entirety. Each page contains a
 simple floral footer with orange accents that became a key background color on
 various pages, once again aimed at unifying the College Cloud website.
 
-## Challenges I ran into
+### Challenges we ran into
 
 We attempted a type of layout we never tried before on our testing page. We wanted our text to
 be side by side with photos, but we had no idea how to go about it. After a lot of trial
-and error, we were successful.
+and error, and discussing with a mentor, we were successful!
 
-## Accomplishments that I'm proud of
+### Accomplishments that we're proud of
 
 We're proud of how much we were able to complete in such a short span of time. 
 We are semi-experienced coders, but this was the most complex website we've all created. 
 We're all proud of the amount of work we put into every page, including all of the content 
 we wrote. We're proud of our testing page for its layout, our FAQ page for the dropdown 
-menus we experimented with, and 
-i sent you guys an invite as a team member, check ur email 
-ok what should i say my job was
-ingrid, i think idk i tink ur purple but i think we didn't really have specific jobs
-You could mention what we worked on and how we sometimes would switch off regions 
-to help each other when we were stuck on something. TEAMWORK MAKES A DREAM WORK - yes
-i didnt get anythinok thnk you!
-i pasted it in google docs. Maybe it automatically added you because I searhced your guyss email and it added
-your profile so idk but try the link in the doc just to be sure.
-ill paste the link in the google doc for you guys
-yayyyyyyy
-## What I learned
+menus we experimented with, and our activities page for the in-depth information we provided.
+
+### What we learned
 
 Being that Creatica is our first hackathon,
 we wanted to push ourselves and create
@@ -72,10 +63,14 @@ dealt with several hiccups in the road that
 required foreign solutions, such as creating a
 table to increase text responsiveness.
 
-## What's next for College Cloud
+### What's next for College Cloud
 
 In the future, we hope for College Cloud to include chat sections both for 
 users to interact with one other, and for users to communicate with the 
 site's creators. This way, students can receive support regarding 
-their personal concerns in conjunction with general guidelines. 
+their personal concerns in conjunction with general guidelines. We also hope 
+to improve the responsiveness of our website, so users will be able to view 
+our website comfortably on all devices.
 
+### Built With
+`HTMl` `CSS` `JavaScript`
