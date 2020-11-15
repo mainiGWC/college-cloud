@@ -250,7 +250,10 @@ h3 {
 }
 
 #courses {
-  margin: auto;
+  margin-bottom: 100%;
+}
+#courses1 {
+  margin-bottom: 30%;
 }
 
 .card {
@@ -390,10 +393,29 @@ div.desc {
   padding-bottom: 2%;
   margin: 3%;
   margin-top: 0;
+  margin-bottom: 2;
   font-family: "Zilla Slab", serif;
   font-size: 14pt;
   float: center;
 }
+
+.extraCheck{
+  background-color: #d3e7f0;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: center;
+  width: 75%;
+  overflow: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: 3%;
+  margin-top: 0;
+  margin-bottom: 2;
+  font-family: "Zilla Slab", serif;
+  font-size: 24pt;
+  float: center;
+}
+
 
 .card {
   background-color: #d3e7f0;
@@ -410,7 +432,7 @@ div.desc {
   text-align: left;
   font-size: 25pt;
   font-family: "Zilla Slab", serif;
-  margin-left: 30%;
+  margin-left: 25%;
   margin-top: 0;
   width: 60%;
 }
@@ -420,7 +442,7 @@ div.desc {
   font-family: "Montserrat", sans-serif;
   line-height: 200%;
   text-align: left;
-  margin-left: 30%;
+  margin-left: 25%;
   width: 60%;
 }
 
@@ -433,22 +455,18 @@ div.desc {
 }
 
 .imgTest {
-  width: 110%;
-  height: 30%;
+  width: 140%;
+  height: 35%;
   margin-left: 0;
-  object-fit: cover;
-  overflow: visible;
 }
 
 .imgTesting {
-  width: 100%;
-  height: 70%;
-  margin-left: 0;
+  width: 130%;
+  height: 93%;
+  margin-left: -30%;
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
-  object-fit: cover;
-  overflow: visible;
 }
 
 .imageTesting {
