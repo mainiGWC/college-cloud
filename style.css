@@ -100,7 +100,7 @@ a:hover {
   border: 3px solid Purple;
 }
 
-img.smallResize {
+.smallResize {
   width: 30%;
   height: 30%;
 }
@@ -196,9 +196,7 @@ img.smallResize {
   overflow: hidden;
   transition: max-height 0.5s ease-out;
 }
-
-
-
+/*Description formating in AP questions*/
 div.desc {
   padding: 15%;
   text-align: center;
@@ -235,6 +233,15 @@ div.desc {
 /*Groups text that need underlines */
 .underlineLinks {
   text-decoration: underline; 
+}
+/*formatting for studying image*/
+.studyImage {
+  width: 50%;
+  height: 60%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 /* End CSS for Testing.html page */
 
@@ -308,4 +315,67 @@ p {
   text-align: center;
   font-family: "Zilla Slab", serif;
   font-size: 30pt;
+}
+
+.foldingFAQ {
+  background-color: #eee;
+  color: black;
+  cursor: pointer;
+  padding: 8% 10%;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 150%;
+  transition: 0.5s;
+  font-family: "Zilla Slab", serif;
+  margin-top: 4%;
+}
+
+/*Highlights drop down menus on hover*/
+.active,
+.foldingFAQ:hover {
+  background-color: #ccc;
+}
+.foldingFAQ:after {
+  content: "\02795"; /*unicode for plus sign*/
+  font-size: 60%;
+  color: #777;
+  float: right;
+  margin-left: 2%;
+  border: none;
+  padding: 0;
+  margin-top: 1.5%;
+}
+.active:after {
+  content: "\2796";
+  margin-top: 1.5%;
+}
+/*Styling for text under drop down*/
+.board {
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+/*Question tabs*/
+.responsiveFAQ {
+  padding-left: 6%;
+  padding-top: 8%;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700%) {
+  .responsiveFAQ {
+    width: 49.99999%;
+    margin: 6% 0;
+  }
+}
+
+@media only screen and (max-width: 200%) {
+  .responsiveFAQ {
+    width: 100%;
+  }
 }
