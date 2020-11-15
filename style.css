@@ -14,6 +14,12 @@ h1 {
   float: left;
 }
 
+/* index styling*/
+.intro {
+  display: flex;
+  justify-content: center;
+  padding-top:
+}
 /* universal nav on all pages */
 nav {
   display: flex;
@@ -277,16 +283,16 @@ div.desc {
 
 .headingTest {
   font-size: 25pt;
-  margin: 0;
+  margin-top: 0;
   font-family: "Zilla Slab", serif;
-  float: right;
-  padding-left: 10%;
+  padding-left: 2%;
+  margin-left: 2%;
 }
 
 .testingText {
   font-size: 15pt;
-  float:right;
-  padding-left: 10%;
+  padding-left: 2%;
+  margin-left: 2%;
 }
 
 .cardLine {
@@ -301,19 +307,41 @@ div.desc {
   width: 50%;
   height: 50%;
   float: left;
+  padding-right: 2%;
+  margin-right: 1%;
+}
+
+.imgTesting {
+  width: 50%;
+  height: 50%;
+  float: right;
+  padding-left: 2%;
+  margin-left: 1%;
+}
+
+.imageTesting {
+  width: 35%;
+  height: 35%;
+  float: left;
+  padding-right: 2%;
+  margin-right: 1%;
+}
+
+.testTexts {
+  font-size: 15pt;
+}
+
+.headingTests {
+  font-size: 25pt;
+  margin-top: 0;
+  font-family: "Zilla Slab", serif;
+  padding-right: 2%;
+  margin-right: 2%;
 }
 
 .articleTestRight{
   float:right;
 }
-/* .allTest {
-  display: flex;
-}
-
-.column{
-  flex: 33.33%;
-  padding: 5px;
-} */
 
 /* End CSS for Testing.html page */
 
