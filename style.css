@@ -301,3 +301,11 @@ p {
   margin: 0;
   font-family: "Zilla Slab", serif;
 }
+
+/* FAQ's */
+.titleFAQ {
+  margin-top: 4%;
+  text-align: center;
+  font-family: "Zilla Slab", serif;
+  font-size: 30pt;
+}
