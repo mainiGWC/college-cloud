@@ -230,7 +230,13 @@ h3 {
 
 .imgLargeResize{
   width: 30%;
-  margin: 3;
+  margin: 3%;
+}
+
+.imgLargeResize2{
+  width:31%;
+  margin: 3%;
+  
 }
 
 
@@ -451,8 +457,8 @@ div.desc {
 }
 
 .imgAct {
-  width: 350%;
-  height: 100%;
+  width: 400%;
+  height: 115%;
   margin-left: 0;
 }
 
