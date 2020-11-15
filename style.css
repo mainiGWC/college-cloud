@@ -383,17 +383,16 @@ div.desc {
   background-color: #d3e7f0;
   padding-left: 1%;
   padding-right: 1%;
-  text-align: left;
+  text-align: center;
   width: 35%;
   overflow: auto;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   margin: 3%;
   margin-top: 0;
-  text-align: center;
   font-family: "Zilla Slab", serif;
   font-size: 14pt;
-    
+  float: center;
 }
 
 .card {
@@ -411,8 +410,9 @@ div.desc {
   text-align: left;
   font-size: 25pt;
   font-family: "Zilla Slab", serif;
-  margin-left: 10%;
+  margin-left: 30%;
   margin-top: 0;
+  width: 60%;
 }
 
 .testingText {
@@ -420,7 +420,8 @@ div.desc {
   font-family: "Montserrat", sans-serif;
   line-height: 200%;
   text-align: left;
-  margin-left: 10%;
+  margin-left: 30%;
+  width: 60%;
 }
 
 .cardLine {
@@ -451,14 +452,13 @@ div.desc {
 }
 
 .imageTesting {
-  width: 80%;
-  height: 90%;
+  width: 200%;
+  height: 50%;
+  float: left;
   margin-left: 0;
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
-  object-fit: cover;
-  overflow: visible;
 }
 
 .testingP {
@@ -491,6 +491,31 @@ div.desc {
   width: 80%;
 }
 
+.headingTesting {
+  text-align: left;
+  font-size: 25pt;
+  font-family: "Zilla Slab", serif;
+  margin-left: 35%;
+  margin-top: 0;
+  width: 60%;
+}
+
+.testingTexts {
+  font-size: 13pt;
+  font-family: "Montserrat", sans-serif;
+  line-height: 200%;
+  text-align: left;
+  margin-left: 35%;
+  width: 60%;
+}
+
+#testSide {
+  width: 50%;
+  margin:0;
+  padding: 0;
+  
+}
+
 #listItems {
   text-align: left;
   margin-top: 0;
@@ -513,7 +538,7 @@ div.desc {
 
 table, th, td {
   margin-top: 4%;
-  border: 1px solid black;
+  border: 0;
   border-collapse: collapse;
   overflow: visible;
 }
@@ -711,3 +736,25 @@ th, td {
    object-fit: cover;
   text-align: center;
 }
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-height: 5%;
+   object-fit: cover;
+  text-align: center;
+}
+#footer2 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-height: 15%;
+   object-fit: cover;
+  text-align: center;
+}
+#footerProblem {
+  margin-bottom: 80%;
+}
+
