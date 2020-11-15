@@ -29,6 +29,10 @@ h1 {
 }
 /*Start creator styling*/
 
+.creatorsTitle {
+  text-align: center;
+}
+
 .cardLong {
   display: flex;
   flex-direction: row;
@@ -40,6 +44,7 @@ h1 {
   text-align: left;
   margin: 0;
   float: left;
+  margin-top: 2%;
 }
 
 .titleMission {
@@ -53,7 +58,13 @@ h1 {
   text-align: left;
   width: 30%;
   overflow: auto;
-  margin-top: 3%;
+  margin-top: 2%;
+}
+
+.about {
+  text-align: left;
+  margin: 0;
+  float: left;
 }
 
 #mirandaImg {
@@ -157,7 +168,6 @@ h3 {
   font-family: "Mali", cursive;
   float: left;
 }
-
 
 .smallResize {
   width: 30%;
@@ -436,7 +446,6 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 100%;
   line-height: 200%;
-  margin-top: 0;
 }
 
 #firstQ {
