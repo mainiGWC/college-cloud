@@ -253,6 +253,8 @@ h3 {
 .center {
   text-align: center;
   float: center;
+  font-family: "Zilla Slab", serif;
+  font-size: 30pt;
 }
 
 /* template for pathways */
@@ -408,7 +410,6 @@ div.desc {
   margin: 3%;
   margin-top: 0;
   margin-bottom: 2;
-  font-family: "Zilla Slab", serif;
   font-size: 14pt;
   float: center;
 }
