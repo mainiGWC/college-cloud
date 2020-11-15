@@ -31,6 +31,12 @@ h1 {
 
 .creatorsTitle {
   text-align: center;
+  margin-left: 0;
+  padding-left: 0;
+  width: 95%;
+  font-family: "Zilla Slab", serif;
+  font-size: 30pt;
+  margin-top: 0;
 }
 
 .cardLong {
@@ -61,10 +67,19 @@ h1 {
   margin-top: 2%;
 }
 
+.names {
+  text-align: left;
+  margin-top: 2%;
+  float: left;
+  font-family: "Montserrat", sans-serif;
+}
+
 .about {
   text-align: left;
   margin: 0;
+  margin-top: 2%;
   float: left;
+  font-family: "Montserrat", sans-serif;
 }
 
 #mirandaImg {
@@ -436,6 +451,7 @@ div.desc {
   text-decoration: underline;
   font-family: "Zilla Slab", serif;
   line-height: 1.5;
+  margin-
 }
 
 .redirects:hover {
@@ -450,6 +466,14 @@ p {
 
 #firstQ {
   margin-bottom: 4%;
+}
+
+.linksText {
+  text-align: left;
+  margin: 0;
+  margin-top: 2%;
+  float: left;
+  font-family: "Montserrat", sans-serif;
 }
 
 .titleLinks {
