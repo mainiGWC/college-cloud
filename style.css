@@ -227,10 +227,18 @@ h3 {
   font-size: 25pt;
   margin: 0;
   font-family: "Zilla Slab", serif;
+  margin-top: 2%;
 }
 
 .scheduleText {
-  font-size: 15pt;
+  text-align: left;
+  margin: 0;
+  margin-top: 2%;
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 4%;
+  line-height: 200%;
+  font-size: 13.5pt;
 }
 
 .scheduleChart {
@@ -317,25 +325,6 @@ div.desc {
   padding-right: 15%;
 }
 
-/*Groups text that need underlines */
-.underlineLinks {
-  text-decoration: underline;
-}
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  max-height: 50%;
-  position: relative;
-  margin: auto;
-}
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 5s;
-  animation-name: fade;
-  animation-duration: 5s;
-}
-
 .titleTest {
   margin-top: 4%;
   text-align: center;
@@ -347,6 +336,7 @@ div.desc {
   margin: auto;
 }
 
+.bold { text-decoration: bold}
 .card {
   background-color: #d3e7f0;
   padding-left: 5%;
@@ -451,17 +441,11 @@ div.desc {
   text-decoration: underline;
   font-family: "Zilla Slab", serif;
   line-height: 1.5;
-  margin-
+  margin-top: 4%;
 }
 
 .redirects:hover {
   color: #6b838f;
-}
-
-p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 100%;
-  line-height: 200%;
 }
 
 #firstQ {
@@ -474,6 +458,9 @@ p {
   margin-top: 2%;
   float: left;
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 4%;
+  line-height: 200%;
+  font-size: 15pt;
 }
 
 .titleLinks {
@@ -488,6 +475,7 @@ p {
   font-size: 220%;
   margin: 0;
   font-family: "Zilla Slab", serif;
+  margin-bottom: 4%;
 }
 
 .subheadingLinks {
@@ -584,4 +572,15 @@ p {
 
 .careers:hover {
   color: #5b7380;
+}
+
+.insideText {
+  text-align: left;
+  margin: 0;
+  margin-top: 2%;
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 4%;
+  line-height: 200%;
+  font-size: 12pt;
 }
